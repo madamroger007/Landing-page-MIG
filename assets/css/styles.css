@@ -6,7 +6,7 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --first-color: #DA2535;
+  --first-color: #6e85f0;
   --first-color-alt: #C42130;
   --first-color-send: #DE3B49;
   --title-color: #161212;
@@ -137,7 +137,7 @@ img{
 
 .bd-grid{
   display: grid;
-  gap: 1.5rem;
+  gap: 1.8rem;
 }
 
 .l-header{
@@ -281,6 +281,8 @@ img{
 .button{
   display: inline-block;
   background-color: var(--first-color);
+  border-color: #161212;
+  border: 1px;
   color: #fff;
   padding: 1rem 1.5rem;
   border-radius: .5rem;
@@ -335,7 +337,7 @@ img{
 }
 
 .decoration__img{
-  width: 180px;
+  width: 100px;
 }
 
 .decoration__title{
@@ -362,11 +364,7 @@ img{
   box-shadow: 0 3px 12px rgba(65,11,16,.15);
 }
 
-.accessory__img{
-  width: 110px;
-  justify-self: center;
-  margin-bottom: .25rem;
-}
+
 
 .accessory__title, .accessory__category{
   text-align: center;
@@ -413,6 +411,7 @@ img{
 
 .send__direction{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: #fff;
   padding: .5rem;

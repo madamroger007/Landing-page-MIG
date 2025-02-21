@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="MIG (Musseum Item Generator) - website yang dapat membantu Anda mengenerate gambar dengan mudah dan cepat.">
-    <meta name="keywords" content="MIG, Musseum Item Generator, Generator Item, Item Generator, Image, file, document, gambar, konverter, generator">
+    <meta name="keywords"
+        content="MIG, Musseum Item Generator, Generator Item, Item Generator, Image, file, document, gambar, konverter, generator">
     <meta name="author" content="MIG Developer Team">
     <meta property="og:title" content="MIG (Musseum Item Generator)">
     <meta property="og:description"
         content="Website yang dapat membantu Anda mengenerate gambar dengan mudah dan cepat.">
     <meta property="og:image" content="/assets/img/MIG.png">
     <meta property="og:url" content="/assets/img/MIG.png">
+    <meta name="robots" content="index, follow">
+
     <!--========== BOX ICONS ==========-->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
@@ -46,7 +49,7 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="#tools" class="nav__link ">Tools</a></li>
-                    <li class="nav__item"><a href="#donate" class="nav__link ">Donate</a></li>
+                    <li class="nav__item"><a href="#donate" class="nav__link ">Gift</a></li>
 
                     <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                 </ul>
@@ -63,65 +66,88 @@
         <section class="home" id="home">
             <div class="home__container bd-container bd-grid">
                 <div class="home__img">
-                    <img src="assets/img/home.png" alt="">
+                    <img src="assets/img/bg-hero.svg">
                 </div>
 
                 <div class="home__data ">
-                    <h1 class="text-4xl py-5 leading-12" style="font-family: 'DynaPuff', serif;">Musseum Image Generator</h1>
+                    <h1 class="text-4xl py-5 leading-12 drop-shadow-xl"
+                        style="font-family: 'DynaPuff', serif; color: white; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;">
+                        Musseum Image Generator</h1>
                     <p class="home__description ">Website that can help you generate images easily and quickly. Starting
-                        from resize, compress and others</p>
-                    <a href="#tools" class="button">Get Started</a>
+                        from resize, remove background and other tools</p>
+                    <a href="#tools" class="button "
+                        style="border: 1px solid black; background-color:rgba(110, 133, 240, .6); text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; ">Get
+                        Started</a>
                 </div>
             </div>
         </section>
 
 
         <!--========== ACCESSORIES ==========-->
+        <!--========== ACCESSORIES ==========-->
         <section class="accessory section bd-container" id="accessory">
-            <h2 class="section-title" >Generator Image<br> Features</h2>
+            <h2 class="section-title">Generator Image<br>Features</h2>
 
             <div class="accessory__container bd-grid">
+                <!-- Feature 1 -->
                 <div class="accessory__content">
-                    <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                    <h3 class=" text-xl pb-2 text-center" >Easy Use</h3>
-                    <p class="accessory__category ">
-                       Antarmuka yang sederhana dan intuitif sehingga mudah digunakan oleh siapa saja, tanpa memerlukan keahlian teknis.
-                        
+                    <img src="assets/img/icon/easy.png" alt="Easy to Use Icon" class="w-16 mx-auto my-2">
+                    <h3 class="text-xl pb-2 text-center">Easy to Use</h3>
+                    <p class="accessory__category">
+                        The interface is designed to be simple and intuitive, allowing anyone to use it effortlessly
+                        without the need for technical expertise.
                     </p>
-                 
                 </div>
 
-                
-              
+                <!-- Feature 2 -->
+                <div class="accessory__content">
+                    <img src="assets/img/icon/free.png" alt="Free to Use Icon" class="w-16 mx-auto my-2">
+                    <h3 class="text-xl pb-2 text-center">Free to Use</h3>
+                    <p class="accessory__category">
+                        Enjoy all the features without any cost, making it accessible for everyone who needs an
+                        efficient image generator.
+                    </p>
+                </div>
 
-              
+                <!-- Feature 3 -->
+                <div class="accessory__content">
+                    <img src="assets/img/icon/access.png" alt="Everywhere to Use Icon" class="w-16 mx-auto my-2">
+                    <h3 class="text-xl pb-2 text-center">Accessible Everywhere</h3>
+                    <p class="accessory__category">
+                        Use the tool on any device, whether you’re on a desktop, tablet, or smartphone, ensuring
+                        flexibility and convenience.
+                    </p>
+                </div>
 
-              
+                <!-- Feature 4 -->
+                <div class="accessory__content">
+                    <img src="assets/img/icon/quality.png" alt="High Quality Icon" class="w-16 mx-auto my-2">
+                    <h3 class="text-xl pb-2 text-center">High Quality</h3>
+                    <p class="accessory__category">
+                        Generate images with exceptional quality and resolution, perfect for both personal and
+                        professional needs.
+                    </p>
+                </div>
             </div>
         </section>
 
 
+
         <!--========== DECORATION ==========-->
         <section class="decoration section bd-container" id="tools">
-            <h2 class="section-title">Give Christmas Decorations <br> For Your Home</h2>
+            <h2 class="section-title">Tools in<br> Musseum</h2>
             <div class="decoration__container bd-grid">
                 <div class="decoration__data">
-                    <img src="assets/img/decoration1.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Christmas Bells</h3>
-                    <a href="#" class="button button-link">Go Shopping</a>
+                    <img src="assets/img/icon/resize.png" alt="" class="decoration__img mx-auto my-4">
+                    <h3 class="decoration__title">Compress Image</h3>
+                    <a href="#" class="button button-link ">Go Generator</a>
+                </div>
+                <div class="decoration__data">
+                    <img src="assets/img/icon/remove.png" alt="" class="decoration__img mx-auto my-4">
+                    <h3 class="decoration__title">Remove Background</h3>
+                    <a href="#" class="button button-link">Go Generator</a>
                 </div>
 
-                <div class="decoration__data">
-                    <img src="assets/img/decoration2.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Christmas Candies</h3>
-                    <a href="#" class="button button-link">Go Shopping</a>
-                </div>
-
-                <div class="decoration__data">
-                    <img src="assets/img/decoration3.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Christmas Trees</h3>
-                    <a href="#" class="button button-link">Go Shopping</a>
-                </div>
             </div>
         </section>
 
@@ -129,15 +155,23 @@
 
         <!--========== SEND GIFT ==========-->
         <section class="send section" id="donate">
-            <div class="send__container bd-container bd-grid">
+            <div class="send__container bd-container bd-grid"
+                style=" text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; ">
                 <div class="send__content">
                     <h2 class="section-title-center send__title">Send Gift Now</h2>
-                    <p class="send__description">Start giving away before the holidays are over. Write the home address
-                        of the person who will send the gift.</p>
+                    <p class="send__description">
+                        Show your appreciation for the app’s development! If this app has been helpful to you, consider
+                        sending a gift as a token of support. Simply enter the recipient's home address to share your
+                        gratitude.
+                    </p>
+
                     <form action="">
                         <div class="send__direction">
-                            <input type="text" placeholder="House address" class="send__input">
-                            <a href="#" class="button">Send</a>
+                            <p class="md:text-2xl text-lg  pl-5"
+                                style="font-family: 'DynaPuff', serif; color: white; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;">
+                                Gift to Developer</p>
+                            <a href="https://trakteer.id/adam_setiadi/link" target="_blank" class="button "
+                                style="border: 1px solid black; background-color:rgba(110, 133, 240, .6); text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; ">Send</a>
                         </div>
                     </form>
                 </div>
@@ -154,43 +188,41 @@
         <div class="footer__container bd-container bd-grid">
             <div class="footer__content">
                 <h3 class="footer__title">
-                    <a href="#" class="footer__logo">Christmas Gift</a>
+                    <a href="#" class="footer__logo">MIG</a>
                 </h3>
-                <p class="footer__description">I sent a gift and it gives <br> happiness</p>
+                <p class="footer__description">We give you many conveniences</p>
             </div>
 
             <div class="footer__content">
                 <h3 class="footer__title">Our Services</h3>
                 <ul>
-                    <li><a href="#" class="footer__link">Pricing </a></li>
-                    <li><a href="#" class="footer__link">Discounts</a></li>
-                    <li><a href="#" class="footer__link">Shipping mode</a></li>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#accessory" class="footer__link">Features </a></li>
+                    <li><a href="#tools" class="footer__link">Tools</a></li>
                 </ul>
             </div>
 
-            <div class="footer__content">
-                <h3 class="footer__title">Our Company</h3>
-                <ul>
-                    <li><a href="#" class="footer__link">Blog</a></li>
-                    <li><a href="#" class="footer__link">About us</a></li>
-                    <li><a href="#" class="footer__link">Our mision</a></li>
-                </ul>
-            </div>
+
 
             <div class="footer__content">
                 <h3 class="footer__title">Social</h3>
-                <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
-                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
-                <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="mailto:adamsetiadijr07@gmail.com" target="_blank" class="footer__social"><i
+                        class='bx bxl-google '></i></a>
+                <a href="https://github.com/madamroger007" target="_blank" class="footer__social"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/adamstdi._" target="_blank" class="footer__social"><i
+                        class='bx bxl-instagram-alt'></i></a>
             </div>
         </div>
 
-        <p class="footer__copy">&#169; 2021 Bedimcode. All right reserved</p>
+        <p class="footer__copy">&#169; 2025 Madamroger. All right reserved</p>
     </footer>
 
     <!--========== SCROLL REVEAL ==========-->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!--========== MAIN JS ==========-->
     <script src="assets/js/main.js"></script>
 </body>
